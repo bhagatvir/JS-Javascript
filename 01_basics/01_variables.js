@@ -1,8 +1,28 @@
-console.log("Hello, world")
-console.table(['Bhagat, Hello']);
-console.log("Ok, so this is my first line of code in JavaScript");
-console.log()
+//* Variables 
+// node "01_basics/01_variables.js"
 
-console.log("So, recently I went to a pool and it made me feel uncomfortable")
-console.log("Lol, I feel sick")
+console.log("Discussing Variables");
+
+// const => permanent lock, cannot be changed
+// let => can be changed accorsing to wish 
+// var is similar to let but the only difference is that let is used more than var. No need to use var, instead use let
+
+const accountId = 15729;
+let accountEmail = "Justmail@email.com"
+var accountPassword = "Accountking13"
+accountCity = "Punjab"
+let accountState; // Can be written if we don't know the current
+
+/*
+accountId = 24;  Not allowed as Id is constant
+
+
+ accountEmail = "Hc@hc.emalil.com";  Allowed, these are temperary
+ accountPassword = "Deathking";  Allowed, these are temperary
+ accountCity = "Jaipur";  Allowed, these are temperary
+*/
+console.log();
+
+console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
 
