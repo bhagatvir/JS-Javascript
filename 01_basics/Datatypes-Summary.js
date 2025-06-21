@@ -53,7 +53,7 @@ console.log();
 console.log("Non-Primitive Data Types:");
 console.log();
 
-const heros = ["Superman", "Batman", "Spiderman"];
+const heros = ["Superman", "Batman", "Spiderman"]; // It is an array, which is a type of object
  let myobj ={
     name: "Bhagatvir",
     age: 13

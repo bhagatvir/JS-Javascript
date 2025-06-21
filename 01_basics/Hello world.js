@@ -1,4 +1,5 @@
 //* Hello world
+//? node "01_basics/Hello world.js"
 
 console.log("Hello, world")
 console.table(['Bhagat, Hello']);
@@ -8,4 +9,4 @@ console.log()
 console.log("So, recently I went to a pool and it made me feel uncomfortable")
 console.log("Lol, I feel sick")
 
-// node "01_basics/Hello world.js"
+console.log("Name: Gojo\nTitle: The Strongest\nPower: Infinity"); // Multiline string using \n; \n is used to create a new line in the string
