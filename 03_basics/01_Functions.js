@@ -68,3 +68,34 @@ console.log();
 
 console.log(loginUserMessage("")); //~ Empty string means it will use the default value
 console.log();
+
+function calculateCartPrice(Value1, Value2, ...num1){ //& Rest parameter syntax, it allows us to pass any number of arguments
+    return num1;
+}
+
+console.log(calculateCartPrice(100, 200, 300, 400)); // Value1 - 100, Value2 - 200, Left - num1
+
+const user = {
+    username: "Bhagatvir Singh",
+    age: 13
+}
+
+function handleOject(anyobject){
+ console.log(`Username is ${anyobject.username} and age is ${anyobject.age}`);
+}
+
+handleOject(user); //! Passing object as an argument to the function
+console.log();
+
+handleOject({
+    username: "Vidal",
+    age: 14
+}) 
+console.log();
+
+const newArray = [200, 400, 600]
+function returnSecondValue(getArray){
+    return getArray[2]
+}
+console.log(returnSecondValue(newArray)); //! Passing array as an argument to the function
+// console.log(returnSecondValue([100, 200, 300])); // Passing array as an argument to the function
