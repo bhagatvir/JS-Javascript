@@ -98,4 +98,4 @@ function returnSecondValue(getArray){
     return getArray[2]
 }
 console.log(returnSecondValue(newArray)); //! Passing array as an argument to the function
-// console.log(returnSecondValue([100, 200, 300])); // Passing array as an argument to the function
+console.log(returnSecondValue([100, 200, 300])); // Passing array as an argument to the function
