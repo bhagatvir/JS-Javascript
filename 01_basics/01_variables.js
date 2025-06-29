@@ -1,11 +1,11 @@
 //* Variables 
-// node "01_basics/01_variables.js"
+//? node "01_basics/01_variables.js"
 
 console.log("Discussing Variables");
 
 // const => permanent lock, cannot be changed
 // let => can be changed accorsing to wish 
-// var is similar to let but the only difference is that let is used more than var. No need to use var, instead use let
+// var is similar to let but the only difference is var is function scoped, while let is block scoped
 
 const accountId = 15729;
 let accountEmail = "Justmail@email.com"
@@ -24,5 +24,3 @@ accountId = 24;  Not allowed as Id is constant
 console.log();
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
-
-
